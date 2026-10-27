@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width,
+      initial-scale=1.0">
+    <meta name="description"
+      content="Universal Global Encyclopedia">
+    <title>Universal Global Encyclopedia: 
+      education, business, technology and knowledge
+    for everyone.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#">
+        <span class="logo"></span>
+      <span>Universal Global<br><b>Encyclopedia</b></span>
+    </a>
+      
+      <button class="menu-btn"
+        id="menu-btn"
+        aria-label="Open-nevigation"
+        aria-expanded="false">
+        <span></span>
+        <span></span><span></span>
+      </button>
+
+      <nav id="navMenu" class="nav">
+        <a href="#home" data-en="Home"
+          data-ny="poyambira">Home</a>
+        <a href="#learn"
+          data-en="Education"
+          data-ny="Maphuziro">Education</a>
+        <a href="#business"
+          data-en="Business"
+          data-ny="Zamalonda">Business</a>
+        <a href="#knowledge"
+          data-en="Knowledge"
+          data-ny="Chidziwitso"knowledge
+          </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <span class="eyebrow">KNOWLEDGE
+         . OPPORTUNITY . PROGRESS</span>
+        <h1>Discover a World of <span>Knowledge</span></h1>
+        <p data-en="Learn new skills, 
+          grow your business and explore 
+          knowledge from around the world."
+          data-ny="Mphuzirani maluso atsopano, kulitsan 
+          bisinesi yanu ndipo fufuzani chidziwitso cha padziko lonse.">
+          Learn new skills . grow your 
+          business and explore knowledge around 
+          the world.
+          </p>
+
+        <div class="search-box">
+          <input id="searchInput"
+            type="search"
+            placeholder="search knowledge..." 
+            aria-label="search">
+          <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="hero-action">
+          <a class="button gold"
+            href="#learn">Start Learning</a>
+          <a class="button outline"
+            href="#business">Explore Business</a>
+        </div>
+      </section>
+
+      <section class="section"
+        id="learn">
+        <div class="section-heading">
+          <span class="eyebrow">
+            EXPIORE
+          </span>
+          <h2>Discover Your Opportunities</h2>
+          <p>Chidziwitso, maluso ndi mwayi kwa aliyense.</p>
+        </div>
+
+        <div class="cards"
+          id="categoryCards">
+          <article class="card"
+            data-search="education maphuziro
+            school courses">
+            <span class="card-icon">document
+            </span>
+            <h3>Education</h3>
+            <p>Learn school subject, languages and 
+            practical skills.</p>
+            <a href="#learn">Explore</a>
+          </article>
+
+          <article class="card"
+            id="business" data-search="business
+            zamalonda money entrepreneurship">
+            <span class="card-icon">
+            </span>
+            <h3>Business</h3>
+            <p>Learn entrepreneurship,
+             marketing and money management.</p>
+            <a href="#business">Explore</a>
+          </article>
+
+          <article class="card"
+            data-search="technology programming digital skills">
+            <span card-icon></span>
+            <h3>Technology</h3>
+            <p>Discover programming,
+            digital skills and modern tools.</p>
+            <a href="#knowledge">Explore</a>
+          </article>
+
+          <article class="card"
+            id="knowledge" data-search="science
+            history knowledge research">
+            <span class="card-icon"></span>
+            <h3>Global Knowledge</h3>
+            <p>Explore science,
+            history, culture and the world.</p>
+            <a href="#knowledge">Explore</a>
+          </article>
+
+          <article class="card"
+            data-search="agriculture ulimi enviroment">
+            <span class="card-icon"></span>
+            <h3>Agriculture</h3>
+            <p>Discover farming, better 
+            harvests and the environment</p>
+            <a href="#knowledge">Explore</a>
+          </article>
+
+          <article class="card"
+            data-search="jobs opportunities work
+            skills">
+            <span class="card-icon"></span>
+            <h3>Opportunities</h3>
+            <p>Discover skills, career
+            ideas and ways to grow.</p>
+            <a href="#business">Explore</a>
+          </article>
+        </div>
+        <p id="searchMessage"
+          class="message" aria-live="polite">
+          </p>
+      </section>
+
+      <section class="callout">
+        <h2>Knowledge for a Better
+          World</h2>
+        <p>Chidziwitso cha padziko
+        lonse, chifukwa cha tsogolo 
+        labwino.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>©<span id="year"></span>
+      Universal Global Encyclopedia</p>
+      <p>Learning . knowledge . 
+      Opportunities</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+  </body>
+</html>
